@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing component with jest matching component with snapshot 1`] = `
+<div>
+  <span
+    className="counter"
+  >
+    0
+  </span>
+  <button
+    className="reducer"
+    onClick={[Function]}
+    value="reducer"
+  >
+    Minus
+  </button>
+  <button
+    className="increment"
+    onClick={[Function]}
+    value="increment"
+  >
+    Plus
+  </button>
+  <button
+    className="reset"
+    onClick={[Function]}
+    value="reset"
+  >
+    Reset
+  </button>
+  <input
+    className="initVal"
+    onChange={[Function]}
+    placeholder="type initial value for counter"
+    type="number"
+  />
+   
+  <button
+    className="change"
+    onClick={[Function]}
+  >
+    zmień
+  </button>
+</div>
+`;
