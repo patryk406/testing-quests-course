@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "sourceType": "module",
+        "types": [
+            "node",
+            "cypress",
+            "cypress-react-selector"
+        ]
+    },
+    "env": {
+        "cypress-react-selector": {
+            "root": "#root"
+        }
+    }
+}

@@ -4,7 +4,7 @@ function Button({ start }) {
     const [counter, setCounter] = useState(initVal);
     return (
         <div>
-            <span className='counter' value={counter}>{counter ? counter : '0'}</span>
+            <span className='counter' value={counter}>{counter ? counter : 0}</span>
             <button value='reducer' className='reducer' onClick={() => setCounter(counter - 1)}>Minus</button>
             <button value='increment' className='increment' onClick={() => setCounter(counter + 1)}>Plus</button>
             <button value='reset' className='reset' onClick={() => setCounter(start)}>Reset</button>
